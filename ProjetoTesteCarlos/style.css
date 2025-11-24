@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    top: 0;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(to right, #0E0D10,#0E0D10,#151519);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 85%;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    border: 1px solid aliceblue;
+    box-shadow: 5px 5px 20px 5px black;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    align-items: center;
+    margin: 100px;
+
+}
+
+#lista{
+    text-align: left;
+    align-items: center;
+    width: 400px;
+    box-shadow: 5px 5px 20px 5px black;
+    padding: 20px;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+
+li{
+    margin-bottom: 15px;
+}

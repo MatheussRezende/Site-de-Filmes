@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background: linear-gradient(to right, #0E0D10,#0E0D10,#151519);
+    font-family: arial;
+
+}
+
+table {
+    margin: 20px auto; 
+    text-align:center;
+    
+}
+
+
+th {
+    padding: 15px;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: #1d1d1f;
+    border-radius: 4px;
+}
+
+
+h3 {
+    margin-bottom: 40px;
+    color: aliceblue;
+}
+
+
+#imgmain {
+    height: 380px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 10px 0px 40px 10px black;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+
+#imgmain:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+
+#icone{
+    pointer-events: none;
+    box-shadow: none;
+}
+
+
+
+
+
+
+/* Descrição */
+
+
+article {
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 62px;
+   display: flex;
+   width: 700px;
+}
+
+#descricao{
+    display: grid;
+    justify-items: left;    
+    margin-left: 50px;
+    height: 600px;
+}
+
+#divimg{
+    position: relative;
+    width: 400px;
+    cursor: pointer;
+}
+
+#imgd {
+    border-radius: 10px;
+    box-shadow: 10px 0px 80px 10px black;
+    transition: filter 1.5s;
+}
+
+#imdb {    
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 170px;
+    opacity: 0;
+    transform: translateY(540px);
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+#divimg:hover #imdb{
+    transform: translateY(250px);
+    opacity: 1;
+}
+
+#divimg:hover #imgd{
+    filter: brightness(0.35);
+}
+
+
+h1 {
+    color: aliceblue;
+}
+
+h4 {
+    margin-top: -5px;
+    color: aliceblue;
+    margin-top: -20px;
+}
+
+h5 {
+    margin: 0;
+    text-align: left;
+    color: aliceblue;
+    margin-top: -25px;
+}
+
+#espaco {
+    word-spacing: 20px;
+}
+
+#imagemLogin {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 85%;
+    margin: 10px;
+}
+
+
+
+
+
+
+

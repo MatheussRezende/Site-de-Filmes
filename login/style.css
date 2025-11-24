@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    top: 0;
+    padding: 0;
+    background: linear-gradient(to right, #0E0D10,#0E0D10,#151519);
+    font-family: Arial;
+}
+
+main {
+    margin: 0 auto;
+    background-color: black;
+    width: 60%;
+    border-radius: 10px;
+    height: 500px;
+    margin-top: 105px;
+    display: flex;
+}
+
+section {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-rows: 135px 100px;    
+}
+
+label{
+    display: grid;
+    margin-left: -66%;
+    grid-template-rows: 20px;
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+input{
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 0;
+    padding: 18px;
+    width: 68%;
+    background-color:#111112;
+    color: #E5E7EB;
+}
+
+input:focus{
+    box-shadow: 0px 0px 10px 2px rgb(13, 13, 92);
+    border: 2px solid rgb(13, 13, 92);
+    outline: none;
+}
+
+::placeholder{
+    color: #4e5156;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #E5E7EB;
+}
+
+button{
+    margin: 0 auto;
+    width: 78%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: -10px, 15px;
+    padding: 18px;
+    color: #E5E7EB;
+    background-color: #111112;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #0e0e0e;
+    box-shadow: 0px 0px 10px 2px rgb(13, 13, 92);
+    border: 1px solid rgb(13, 13, 92);
+}
+
+.esquecisenha{
+    font-size: 11px;
+    margin-left: 43%;
+    margin-top: -10px;
+    color: #9CA3AF;
+}
+
+.semconta{
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #9CA3AF;
+}
+
+.imagem{
+    width: 60%;
+    height: 500px;
+    background-image: url('/Tabela de Filmes/Imagens/posterinters.jpg');
+    background-size: cover;
+    background-position-x: center;
+    box-shadow: inset 40px 0px 40px 50px black; 
+}
