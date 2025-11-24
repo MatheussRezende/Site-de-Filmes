@@ -96,7 +96,7 @@ button:active{
 .imagem{
     width: 60%;
     height: 500px;
-    background-image: url('TabeladeFilmes/Imagens/posterinters.jpg');
+    background-image: url('../TabeladeFilmes/Imagens/posterinters.jpg');
     background-size: cover;
     background-position-x: center;
     box-shadow: inset 40px 0px 40px 50px black; 
